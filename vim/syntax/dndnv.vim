@@ -30,7 +30,7 @@ ab ent_fail ❌
 "TODO: ent_leave?
 
 " Highlight items, inventories, chests, anything that has "stuff" in it.
-syntax region inventory start=/\v\<\=\=\=/ end=/\v\=\=\=\>/
+syntax region inventory start=/\v\<\=\=/ end=/\v\=\=\>/
 hi inventory ctermbg=darkgray
 
 " Highlight names, oh my god please highlight names.
