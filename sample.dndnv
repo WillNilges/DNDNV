@@ -15,25 +15,24 @@ Bandit #2 stabs Rachel, dealing {4 PIERCING} 🌙
 
 Jacob obliterates Bandit #2 with a battleaxe 💀
 
-Bandit #1 Absconds! 
+Bandit #1 Absconds and tries to hide but (DC18 STEALTH -> 3) FAIL! NAT 1!
 
 Rachel (DEATHSAVE -> 13) ✅
 
-Jacob heals Rachel \4/ 💗 
+Jacob casts **Lesser Restoration** and heals Rachel \4/ 💗
 
 FOR WHEN YOU HAVE STUFF IN CHESTS
 
-<===INVENTORY===
+<INV
 A shovel, or something, idk.
-================>
+>
 
-Or if you're in a rush...
 
-<===
+<INV
 30gp
 A knife
 A book on cats.
-===>
+>
 
 The point is, you can say what the item that holds things is.
 
@@ -43,7 +42,7 @@ Oh, hello! My name is [[Clauda]]. [[Clauda Jones.]] I'm from [(Cleveland, Ohio)]
 
 Roll for it, dawg.
 
-"Come on now, don't you want to surrender?" (PERSUASION -> 10)
+"Come on now, don't you want to surrender?" (PERSUASION -> 10 DC13)
 
 "Eh, not really." ( PERSUATSION FAIL! )
 
@@ -54,9 +53,18 @@ the quick brown fox jumps over the lazy dog.
 OH HEY, THIS IS IMPORTANT.
 
 (++I NEED TO TELL YOU A SECRET!++)
+**I NEED TO TELL YOU A SECRET!**
 
 (__THIS IS MY KNOWLEDGE ONLY!__)
+u_THIS IS MY KNOWLEDGE ONLY!_u
 
 (// Nobody should know this //)
+__Nobody should know this__
 
 (-- You know what, fughettaboutit. Also I hate HTML comments so this'll never be useful to me.--)
+--- You know what, fughettaboutit. Also I hate HTML comments so this'll never be useful to me.---
+
+
+//// The session is over. Go home.
+
+~~~~ Time keeps on slippin'....
