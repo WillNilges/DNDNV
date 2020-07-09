@@ -29,18 +29,23 @@ ab ent_pass ✅
 ab ent_fail ❌
 "TODO: ent_leave?
 
+"Indicate the end of a session or time passing
+syntax region sessionEnd start=/\v\/\/\/\// end=/$/
+syntax region timePassing start=/\v\~\~\~\~/ end=/$/
+hi sessionEnd cterm=bold ctermbg=gray ctermfg=black
+hi timePassing cterm=bold ctermbg=gray ctermfg=black
+
 " Highlight items, inventories, chests, anything that has "stuff" in it.
 syntax region inventory start=/\v\<\=\=/ end=/\v\=\=\>/
-hi inventory ctermbg=darkgray
+hi inventory ctermbg=brown
 
 " Highlight names, oh my god please highlight names.
 syntax region introName start=/\v\[\[/ end=/\v\]\]/
 hi introName cterm=bold ctermbg=darkgreen
 
-" Highlight places, oh my god please highlight names.
+" Highlight places
 syntax region introPlace start=/\v\[\(/ end=/\v\)\]/
 hi introPlace cterm=bold ctermbg=lightgreen ctermfg=black
-
 
 " When diplomacy fails...
 syntax match battleStart '-- Battle Start! --' 
@@ -81,3 +86,4 @@ hi dontMissThis3 cterm=italic
 "was once known but perhaps retconned.
 syntax region missThis start=/\v\(\-\-/ end=/\v\-\-\)/
 hi missThis cterm=strikethrough
+
